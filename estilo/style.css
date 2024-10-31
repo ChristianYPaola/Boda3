@@ -161,13 +161,13 @@ p {
 
 .padres p {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #555;
     margin: 5px 0;
 }
 
 .separator-image {
-    width: 100px; /* Tamanho da imagem, ajuste conforme necessário */
+    width: 80px; /* Tamanho da imagem, ajuste conforme necessário */
     height: auto;
 }
 
