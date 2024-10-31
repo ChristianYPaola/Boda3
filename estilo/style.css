@@ -28,7 +28,9 @@
 
 
 
-
+p {
+    color: rgb(90, 87, 87) !important; 
+}
 * {
     margin: 0;
     padding: 0;
@@ -133,37 +135,7 @@ p {
     margin-top: 40px;
     text-align: center;
     padding: 40px 20px;
-    background-color: #fff; /* Fundo branco */
-}
-
-.heart {
-    width: 40px;
-    height: 40px;
-    background-color: #6D7A35; /* Cor verde eucalipto */
-    position: relative;
-    transform: rotate(-45deg);
-    display: inline-block;
-    margin-bottom: 20px;
-}
-
-.heart::before,
-.heart::after {
-    content: "";
-    width: 40px;
-    height: 40px;
-    background-color: #6D7A35;
-    border-radius: 50%;
-    position: absolute;
-}
-
-.heart::before {
-    top: -20px;
-    left: 0;
-}
-
-.heart::after {
-    left: 20px;
-    top: 0;
+    background-color: #fff;
 }
 
 .bendicion h3 {
@@ -175,24 +147,28 @@ p {
 
 .padres {
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* Espaçamento entre os elementos */
 }
 
 .padres-couple {
-    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .padres p {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #555;
     margin: 5px 0;
 }
 
-.separator-line {
-    width: 50%;
-    margin: 20px auto;
-    border: none;
-    border-top: 2px dashed #6D7A35; /* Linha desenhada em verde eucalipto */
+.separator-image {
+    width: 100px; /* Tamanho da imagem, ajuste conforme necessário */
+    height: auto;
 }
 
 
@@ -206,7 +182,7 @@ p {
 .nos-casamos h2 {
     font-family: "Corinthia", cursive;
     font-size: 2.7rem;
-    color: #6D7A35;; /* Cor verde eucalipto */
+    color: #6D7A35; /* Cor verde eucalipto */
     margin-bottom: 5px; /* Reduz ainda mais a margem inferior do título */
 }
 
@@ -478,8 +454,8 @@ p {
     position: relative;
     padding: 10px 24px;
     font-size: 18px;
-    color: rgb(193, 163, 98);
-    border: 2px solid rgb(193, 163, 98);
+    color: #6D7A35; 
+    border: 2px solid #6D7A35; 
     border-radius: 34px;
     background-color: transparent;
     font-weight: 600;
@@ -497,7 +473,7 @@ p {
     border-radius: inherit;
     scale: 0;
     z-index: -1;
-    background-color: rgb(193, 163, 98);
+    background-color: #92a247;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
   }
   
@@ -508,7 +484,7 @@ p {
   .button:hover {
     color: #212121;
     scale: 1.1;
-    box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+    box-shadow: 0 0px 20px b(193, 163, 98,0.4);
   }
   
   .button:active {
