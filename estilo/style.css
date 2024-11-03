@@ -27,7 +27,7 @@
 
 @font-face {
     font-family: 'minhafonte';
-    src: url('/fonts/Marthin.otf') format('opentype');
+    src: url('/fonts/') format('opentype');
 }
 
 button {
@@ -84,7 +84,7 @@ a {
 }
 
 .names h1 {
-    font-family: 'minhafonte';
+    font-family: "Corinthia", cursive;
     font-size: 4rem;
     margin: 0;
     color: #6D7A35; /* Cor verde eucalipto */
@@ -92,7 +92,7 @@ a {
 }
 
 .meio {
-    font-family: 'minhafonte' !important;
+    font-family: "Corinthia" !important;
     font-size: 2.5rem !important;
 }
 
@@ -147,8 +147,8 @@ a {
 }
 
 .bendicion h3 {
-    font-family: 'minhafonte';
-    font-size: 1.7rem;
+    font-family: "Corinthia", cursive;
+    font-size: 2rem;
     color: #6D7A35;
     margin-bottom: 20px;
 }
@@ -188,10 +188,10 @@ a {
 }
 
 .nos-casamos h2 {
-    font-family: 'minhafonte';
-    font-size: 2.5rem;
+    font-family: "Corinthia", cursive;
+    font-size: 2.7rem;
     color: #6D7A35; /* Cor verde eucalipto */
-    
+    margin-bottom: 5px; /* Reduz ainda mais a margem inferior do título */
 }
 
 .nos-casamos .image-container {
@@ -345,8 +345,8 @@ a {
 .h2-date{
     color: #6D7A35;
     margin-bottom: -30px;
-    font-family: 'minhafonte';
-    font-size: 2.5rem;
+    font-family: "Corinthia", cursive;
+    font-size: 3rem;
 }
 
 /* Estilo do Botão */
@@ -633,7 +633,7 @@ p {
 }
 
 .fotos h2 {
-    font-family: 'minhafonte';
+    font-family: "Corinthia", cursive;
     font-size: 2.5rem;
     color: #6D7A35; /* Cor verde eucalipto */
     margin-bottom: 20px;
