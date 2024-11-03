@@ -25,11 +25,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Corinthia:wght@400;700&family=Kiwi+Maru&family=WindSong:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Corinthia:wght@400;700&family=Encode+Sans+SC:wght@100..900&family=Kiwi+Maru&family=WindSong:wght@400;500&display=swap');
 
+@font-face {
+    font-family: 'minhafonte';
+    src: url('/fonts/Marthin.otf') format('opentype');
+}
 
-
+button {
+    font-family: 'Montserrat', sans-serif !important;
+}
 
 p {
     color: rgb(90, 87, 87) !important; 
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1rem !important;
 }
 * {
     margin: 0;
@@ -76,16 +84,16 @@ a {
 }
 
 .names h1 {
-    font-family: "Corinthia", cursive;
+    font-family: 'minhafonte';
     font-size: 4rem;
     margin: 0;
-    color: #3e4b4b; /* Cor verde eucalipto */
+    color: #6D7A35; /* Cor verde eucalipto */
     
 }
 
 .meio {
-    font-family: "Unkempt", cursive;
-    font-size: 2.5rem;
+    font-family: 'minhafonte' !important;
+    font-size: 2.5rem !important;
 }
 
 .names h2 {
@@ -107,9 +115,9 @@ a {
     margin-bottom: 20px; /* Espaçamento entre "PAOLA" e o texto abaixo */
 }
 
-p {
+.meio p  {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 1.2rem;
+    font-size: 4rem;
     color: #555;
     font-style: italic; /* Apenas se não quiser usar <em> */
 }
@@ -124,7 +132,7 @@ p {
 }
 
 .names h2 img {
-    width: 40%; /* Ajuste o tamanho conforme necessário */
+    width: 45%; /* Ajuste o tamanho conforme necessário */
     height: auto; /* Mantém a proporção */
     margin: 0 10px; /* Espaçamento entre a imagem e o texto */
 }
@@ -139,9 +147,9 @@ p {
 }
 
 .bendicion h3 {
-    font-family: "Corinthia", cursive;
-    font-size: 2rem;
-    color: #333;
+    font-family: 'minhafonte';
+    font-size: 1.7rem;
+    color: #6D7A35;
     margin-bottom: 20px;
 }
 
@@ -161,7 +169,7 @@ p {
 
 .padres p {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 1rem;
+    font-size: 0.7rem !important;
     color: #555;
     margin: 5px 0;
 }
@@ -180,10 +188,10 @@ p {
 }
 
 .nos-casamos h2 {
-    font-family: "Corinthia", cursive;
-    font-size: 2.7rem;
+    font-family: 'minhafonte';
+    font-size: 2.5rem;
     color: #6D7A35; /* Cor verde eucalipto */
-    margin-bottom: 5px; /* Reduz ainda mais a margem inferior do título */
+    
 }
 
 .nos-casamos .image-container {
@@ -337,8 +345,8 @@ p {
 .h2-date{
     color: #6D7A35;
     margin-bottom: -30px;
-    font-family: "Corinthia", cursive;
-    font-size: 3rem;
+    font-family: 'minhafonte';
+    font-size: 2.5rem;
 }
 
 /* Estilo do Botão */
@@ -435,6 +443,19 @@ p {
     width: 80px; /* Aumenta o tamanho da imagem */
     height: auto; /* Mantém a proporção da imagem */
     margin-bottom: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+.evento-eucalipto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icone-imagem-eucalipto {
+    width: 120px; /* Aumenta o tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 1rem; /* Espaçamento entre a imagem e o texto */
 }
 
 p {
@@ -536,7 +557,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     color: #555;
-    margin: 10px 0;
+    margin: 35px 0;
     text-align: center; /* Centraliza o texto */
 }
 .button-container {
@@ -612,7 +633,7 @@ p {
 }
 
 .fotos h2 {
-    font-family: "Corinthia", cursive;
+    font-family: 'minhafonte';
     font-size: 2.5rem;
     color: #6D7A35; /* Cor verde eucalipto */
     margin-bottom: 20px;
