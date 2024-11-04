@@ -18,7 +18,7 @@
 /*titulo*/
 
 @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Kiwi+Maru&family=WindSong:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Kiwi+Maru&family=WindSong:wght@400;500&display=swap');
+
 
 /*textos*/
 
@@ -30,6 +30,28 @@
     src: url('/fonts/') format('opentype');
 }
 
+/* Apenas para telas de desktop */
+@media (min-width: 790px) {
+    /* Centralizar o layout em telas maiores, simulando uma tela de celular */
+    .mobile-view-container {
+        width: 450px; 
+        max-height: 100vh; 
+        margin: 0 auto; 
+        border: 1px solid #cccccc; 
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15), 0px 5px 15px rgba(0, 0, 0, 0.05); /* Efeito de sombra dupla */
+        overflow-y: auto; 
+        overflow-x: hidden;
+    }
+
+    /* Garantindo que a altura ocupe toda a tela */
+    html, body {
+        margin: 0; 
+        height: 100vh; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+}
 button {
     font-family: 'Montserrat', sans-serif !important;
 }
@@ -119,7 +141,7 @@ a {
     font-family: "Bebas Neue", sans-serif;
     font-size: 4rem;
     color: #555;
-    font-style: italic; /* Apenas se não quiser usar <em> */
+    font-style: italic;
 }
 .names h2 {
     font-family: "Unkempt", cursive;
@@ -132,9 +154,9 @@ a {
 }
 
 .names h2 img {
-    width: 45%; /* Ajuste o tamanho conforme necessário */
-    height: auto; /* Mantém a proporção */
-    margin: 0 10px; /* Espaçamento entre a imagem e o texto */
+    width: 45%; 
+    height: auto; 
+    margin: 0 10px; 
 }
 
 /*SESSÃO 2*/
@@ -175,7 +197,7 @@ a {
 }
 
 .separator-image {
-    width: 70px; /* Tamanho da imagem, ajuste conforme necessário */
+    width: 70px; 
     height: auto;
 }
 
@@ -200,10 +222,10 @@ a {
 
 .nos-casamos .image-container img {
     width: 100%;
-    height: auto; /* Mantém a proporção da imagem */
-    display: block; /* Remove espaço ao redor */
-    margin: 0; /* Remove margens */
-    padding: 0; /* Remove padding */
+    height: auto; 
+    display: block;
+    margin: 0; 
+    padding: 0; 
 }
 
 
@@ -211,7 +233,7 @@ a {
     font-family: "Bebas Neue", sans-serif;
     font-size: 1.3rem;
     color: #555;
-    margin-top: 0px; /* Aproxima mais o texto da imagem */
+    margin-top: 0px; 
     width: 70%; /* Define a largura do texto */
     margin-left: auto;
     margin-right: auto;
@@ -223,7 +245,7 @@ a {
 .date-image {
     width: 75%; /* A imagem ocupará 100% da largura do contêiner */
     height: auto; /* A altura será proporcional */
-    margin-bottom: 0px; /* Espaçamento abaixo da imagem, se necessário */
+    margin-bottom: 0px; 
 }
 
 .date-container {
@@ -243,15 +265,15 @@ a {
 }
 
 .eucalipto-linha {
-    width: 100%; /* Largura da imagem para ocupar todo o espaço horizontal disponível */
-    max-width: 120px; /* Aumente o tamanho conforme necessário */
-    height: auto; /* Mantém a proporção */
-    margin: 10px 0; /* Espaçamento similar ao <hr> */
+    width: 100%;
+    max-width: 120px;
+    height: auto; 
+    margin: 10px 0; 
 }
 
 .date-section {
-    background-color: #ffffff; /* Fundo branco */
-    padding-top: 0px; /* Espaço entre a sessão anterior */
+    background-color: #ffffff;
+    padding-top: 0px;
     padding-bottom: 20px;
     text-align: center;
 }
@@ -306,11 +328,11 @@ a {
 
 .temporizador-container {
     display: flex;
-    justify-content: space-around; /* Distribui o espaço uniformemente entre os itens */
-    align-items: baseline; /* Alinha tudo no centro verticalmente */
-    gap: 0; /* Remove o gap para o espaçamento uniforme */
-    width: 70%; /* Ajuste aqui para o tamanho desejado */
-    margin: 0 auto; /* Centraliza o contêiner na página */
+    justify-content: space-around; 
+    align-items: baseline; 
+    gap: 0; 
+    width: 70%; 
+    margin: 0 auto; 
 }
 
 .temporizador-item {
